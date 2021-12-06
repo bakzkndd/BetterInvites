@@ -1,3 +1,7 @@
+# V1.1.0
+
+- Add the ability to force the member count!
+
 # V1.0.0
 
 Initial Release

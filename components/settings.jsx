@@ -61,6 +61,13 @@ module.exports = class BetterInviteSettings extends React.PureComponent {
           >
             Verification level indicator
           </SwitchItem>
+          <SwitchItem
+            value={getSetting("force-member-count", false)}
+            onChange={() => toggleSetting("force-member-count")}
+            note="When enabled, the member count replaces the channel."
+          >
+            Force Member Count
+          </SwitchItem>
         </Category>
         <Category
           name={"Customization"}
